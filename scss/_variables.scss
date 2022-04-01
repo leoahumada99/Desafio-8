@@ -1,0 +1,21 @@
+$bag-color: white;
+$bgcaja1: black;
+$bgcaja2: yellow;
+$bgcaja3: aqua;
+
+@mixin cajas($bgcaja) {
+    background-color: $bgcaja;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.uno{
+    @include cajas($bgcaja1)
+}
+.dos{
+    @include cajas($bgcaja2)
+}
+.tres{
+    @include cajas($bgcaja3)
+}

@@ -1,0 +1,156 @@
+.uno {
+  background-color: black;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem; }
+
+.dos {
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem; }
+
+.tres {
+  background-color: aqua;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white; }
+
+.header {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 5px 10%; }
+
+.header .log {
+  cursor: pointer; }
+
+.header .log img {
+  height: 70px;
+  width: auto; }
+
+.header .log img:hover {
+  transform: scale(1.2); }
+
+.header .nav-links {
+  list-style: none; }
+
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px; }
+
+.header .nav-links li:hover {
+  transform: scale(1.4); }
+
+.header .nav-links a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: "Barlow", sans-serif; }
+
+.header .nav-links li a:hover {
+  color: black; }
+
+.header .btn button {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+  padding: 9px 25px;
+  background: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s; }
+
+.header .btn button:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1); }
+
+.banner {
+  width: 100%;
+  height: 600px;
+  background-size: 100% 100%;
+  font-family: "Cabin", sans-serif;
+  animation: banner 10s infinite linear alternate;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.capa {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6); }
+
+.info {
+  z-index: 1;
+  width: 100%;
+  max-width: 550px;
+  text-align: center; }
+
+.info h1 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 20px;
+  letter-spacing: 1px; }
+
+.info p {
+  font-size: 25px;
+  color: antiquewhite;
+  line-height: 1.7;
+  margin-bottom: 30px; }
+
+.info a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  background: red;
+  padding: 16px 37px;
+  display: inline-block;
+  border-radius: 50px; }
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.footer p {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  padding: 4px; }
+
+.uno {
+  background-color: black;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem; }
+
+.dos {
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem; }
+
+.tres {
+  background-color: aqua;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem; }

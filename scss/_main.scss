@@ -1,0 +1,47 @@
+.banner {
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    font-family: "Cabin", sans-serif;
+    animation: banner 10s infinite linear alternate;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .capa {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .info {
+    z-index: 1;
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+  }
+  .info h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  .info p {
+    font-size: 25px;
+    color: antiquewhite;
+    line-height: 1.7;
+    margin-bottom: 30px;
+  }
+  .info a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background: red;
+    padding: 16px 37px;
+    display: inline-block;
+    border-radius: 50px;
+  }
